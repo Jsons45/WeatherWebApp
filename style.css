@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+.card {
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.699);
+    padding: 2em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 250px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+.searchbar{
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.iconify{
+    height: 15px;
+    width: 15px;
+}
+button{
+    border-radius:50%;
+    background: none;
+    margin-left: -2.5em;
+    border: none;
+    outline: none;
+}
+button:hover{
+    opacity: 50%;
+}
+.wm{
+    font-size:10px;
+    color: midnightblue;
+}
+
