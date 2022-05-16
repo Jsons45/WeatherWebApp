@@ -24,7 +24,8 @@ body {
     border-radius: 25px;
     width: 100%;
     max-width: 250px;
-    margin: 1em;
+    text-transform: capitalize;
+    
 }
 .search{
     display: flex;
@@ -36,13 +37,20 @@ body {
     border: none;
     outline: none;
     padding: 0.5em 1em;
-    font-size: 50%;
+    font-size: 69%;
     font-family: 'Poppins', sans-serif;
    
 }
 .iconify{
     height: 15px;
     width: 15px;
+}
+.suhu{
+    margin-top:-1.5rem; 
+    font-size:50px;
+}
+.deskripsi{
+    margin-top:-2rem;
 }
 button{
     border-radius:50%;
@@ -58,4 +66,46 @@ button:hover{
     font-size:10px;
     color: midnightblue;
 }
-
+@media only screen and (min-width: 768px) {
+    .searchbar{
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        padding: 0.5em 1em;
+        font-size: 120%;
+        font-family: 'Poppins', sans-serif;
+       
+    }
+    .iconify{
+        height: 20px;
+        width: 20px;
+        
+    }
+    button{
+        border-radius:50%;
+        background: none;
+        margin-left: -3em;
+        border: none;
+        outline: none;
+    }
+    .card {
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.699);
+        padding: 2em;
+        border-radius: 25px;
+        width: 100%;
+        max-width: 400px;
+        
+    }
+    .cuaca{
+        font-size: 150%;
+    }
+    .suhu{
+        font-size:250%;
+        margin-top:-2rem; 
+    }
+    .deskripsi{
+        margin-top:-2.5rem;
+    }
+    
+}
