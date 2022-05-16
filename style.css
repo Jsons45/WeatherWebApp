@@ -10,6 +10,7 @@ body {
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size:cover;
 }
 .overlay{
     background-color: rgba(0, 0, 0, 0.5);
@@ -46,11 +47,11 @@ body {
     width: 15px;
 }
 .suhu{
-    margin-top:-1.5rem; 
+    margin-top:-2rem; 
     font-size:50px;
 }
 .deskripsi{
-    margin-top:-2rem;
+    margin-top:-2.5rem;
 }
 button{
     border-radius:50%;
