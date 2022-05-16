@@ -47,11 +47,11 @@ body {
     width: 15px;
 }
 .suhu{
-    margin-top:-2rem; 
+    margin-top:-1rem; 
     font-size:50px;
 }
 .deskripsi{
-    margin-top:-2.5rem;
+    margin-top:-2rem;
 }
 button{
     border-radius:50%;
