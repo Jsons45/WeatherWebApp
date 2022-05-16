@@ -9,7 +9,6 @@ body {
     margin: 0;
     position: relative;
     overflow: hidden;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .overlay{
@@ -26,7 +25,6 @@ body {
     width: 100%;
     max-width: 250px;
     text-transform: capitalize;
-    
 }
 .search{
     display: flex;
@@ -39,8 +37,7 @@ body {
     outline: none;
     padding: 0.5em 1em;
     font-size: 69%;
-    font-family: 'Poppins', sans-serif;
-   
+    font-family: 'Poppins', sans-serif;  
 }
 .iconify{
     height: 15px;
@@ -73,8 +70,7 @@ button:hover{
     }
     .iconify{
         height: 20px;
-        width: 20px;
-        
+        width: 20px;    
     }
     button{
         margin-left: -3em;
