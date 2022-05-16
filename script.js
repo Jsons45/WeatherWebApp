@@ -39,7 +39,5 @@ document.querySelector(".searchbar").addEventListener("keyup", function(event){
 });
 
 alert("Selamat datang di web👋, ini adalah weather web☁, ini adalah salah satu projectku👨‍💻, click ok for continue😀👍created by Jason susanto")
-
-
 // <!-- CREATED BY JASON SUSANTO -->
 // <!-- SHOUT OUT TO Jonah Lawrence on Youtube -->
